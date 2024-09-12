@@ -1,0 +1,16 @@
+:root {
+  /* COLORS */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-primary-400: hsl(212, 45%, 89%);
+  --clr-primary-500: hsl(216, 15%, 48%);
+  --clr-primary-900: hsl(218, 44%, 22%);
+
+  /* FONT */
+  --ff-primary: "Outfit", sans-serif;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* TYPOGRAPHY */
+  --fs-paragraph: 16px;
+  --fs-title: 25px;
+}

@@ -1,0 +1,72 @@
+@import "./variables.css";
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-paragraph);
+    color: var(--clr-primary-500);
+    background-color: var(--clr-primary-400);
+
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    background-color: var(--clr-white);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card-body h2 {
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-900);
+    margin: 5px 0;
+    font-size: var(--fs-title);
+}
+
+.card-body p {
+    word-spacing: 1px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 400px) {
+    .card {
+        max-width: 450px;
+        padding-bottom: 30px;
+    }
+}
